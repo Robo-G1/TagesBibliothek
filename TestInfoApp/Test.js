@@ -182,6 +182,9 @@ function ShowWorldPolitik(){
 function Back(){
   window.location.href = "Index.html";
 }
+function ShowInfo(){
+  window.location.href = "licence.html";
+}
 function formatDate(isoString) {
   const date = new Date(isoString);
   return date.toLocaleString("de-DE", { 
