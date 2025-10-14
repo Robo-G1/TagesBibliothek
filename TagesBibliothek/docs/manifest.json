@@ -1,33 +1,17 @@
 {
   "name": "Tages-Bibliothek",
   "short_name": "TB",
-  "description": "",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
   "display": "fullscreen",
-  "start_url": "/",
-  "scope": "/",
   "orientation": "portrait",
-  "id": "",
-  "lang": "de",
-  "dir": "auto",
   "icons": [
-    {
-      "src": "blob:https://www.infyways.com/c23b68a2-db60-4a99-afcf-102db137e2b7",
-      "sizes": "72x72",
-      "type": "image/png",
-      "blob": {}
-    }
-  ],
-  "screenshots": [],
-  "categories": [
-    "books"
-  ],
-  "protocol_handlers": [],
-  "related_applications": [],
-  "display_override": [],
-  "share_target": null,
-  "launch_handler": null,
-  "shortcuts": [],
-  "iarc_rating_id": "",
-  "background_color": "#000c29",
-  "theme_color": "#000c29"
+        {
+          "src": "/Icon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }], 
+  "scope": "/",
+  "start_url": "/"
+  
 }

@@ -180,7 +180,7 @@ function ShowWorldPolitik(){
   window.location.href = "AuslandPolitik.html";
 }
 function Back(){
-  window.location.href = "Index.html";
+  window.location.href = "index.html";
 }
 function ShowInfo(){
   window.location.href = "licence.html";
