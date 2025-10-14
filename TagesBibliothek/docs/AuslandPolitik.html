@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: hsl(222, 100%, 8%);
+        overflow-y: auto; /* Aktiviert Scrollen */
+    }
+    .back{
+        height: 50px;
+    }
+    .newsstyle{
+        color: whitesmoke;
+    }
+    .news-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin-top: 10px;
+    }
+    .news-item {
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+    }
+</style>
+<body onload="getNewsWelt()">
+    <img class="back" src="Zurückbutton.png" onclick="Back()">
+    <p id = "news-container" class = "newsstyle"></p>
+    
+    <script src="Test.js"></script>
+</body>
+</html>
