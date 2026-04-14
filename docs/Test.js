@@ -1,6 +1,6 @@
 async function getNews() {
   try {
-    const response = await fetch("https:www.tagesschau.de/api2u/news/?regions=1&ressort=wissen", {
+    const response = await fetch("https://www.tagesschau.de/api2u/news/?regions=9&ressort=wissen", {
       headers: { "Accept": "application/json" }
     });
 
