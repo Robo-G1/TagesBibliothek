@@ -1,0 +1,17 @@
+{
+  "name": "Tages-Bibliothek",
+  "short_name": "TB",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "icons": [
+        {
+          "src": "Icon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }], 
+  "scope": "/",
+  "start_url": "/"
+  
+}
